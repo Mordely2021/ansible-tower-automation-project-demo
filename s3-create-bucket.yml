@@ -1,7 +1,7 @@
 ---
 - hosts: localhost
   vars:
-    S3_Bucket_Name: just4testing1111
+    S3_Bucket_Name: Sunshine005
   tasks:
   - name: Create an S3 bucket
     s3_bucket:
