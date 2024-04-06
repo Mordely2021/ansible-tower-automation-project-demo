@@ -1,7 +1,7 @@
 ---
 - hosts: localhost
   vars:
-    S3_Bucket_Name: lydiobasenew_love2
+    S3_Bucket_Name: lydiobasenew2
   tasks:
   - name: Create an S3 bucket
     s3_bucket:
